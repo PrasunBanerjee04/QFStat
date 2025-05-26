@@ -2,6 +2,9 @@
 
 A C-based software library with a Python interface for quantitative research in market microstructure. This library provides fast, memory-efficient implementations of over 50 essential functions and models for empirical market microstructure research and modeling.
 
+## Motivation
+
+Modern financial markets generate enormous volumes of order book data, especially at high frequencies where every change in the limit order book (LOB)—inserts, cancels, trades—can be timestamped to the microsecond. A single trading day for a moderately active asset can produce tens of millions of events, creating massive challenges for researchers and traders attempting to analyze or model this data efficiently. Traditional scripting languages and numerical platforms (e.g., Python, R) often introduce performance bottlenecks when applied to this scale of data.
 
 ## Modules and Functions
 
