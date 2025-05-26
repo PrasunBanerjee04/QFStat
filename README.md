@@ -28,7 +28,7 @@ QFStat/
 │   ├── parallel.c             # Parallelized routines
 │   └── bindings.c           
 ├── build/
-│   └── (compiled shared object will go here)
+│   └── qfstat.so
 ├── python/
 │   └── qfstat.py             # ctypes-based Python wrapper
 ├── tests/
