@@ -87,7 +87,8 @@ Modern financial markets generate enormous volumes of order book data, especiall
 
 ## Project Structure 
 
-''' 
+```
+
 QFStat/
 ├── include/
 │   └── qfstat.h             
@@ -105,7 +106,7 @@ QFStat/
 ├── Makefile
 └── README.md
 
-'''
+```
 
 
 > For contributions, bug reports, or feature requests, open a GitHub issue or submit a pull request.
